@@ -1,8 +1,11 @@
 
 BootStrap: docker
 From: ubuntu:xenial
+%help
+Fenics from ppa:fenics-packages/fenics
 %label
-
+Version 2017
+Maintainer kma
 %post
     # commands to be executed inside container during bootstrap
      apt-get update
